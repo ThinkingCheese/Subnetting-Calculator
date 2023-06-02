@@ -4,7 +4,7 @@ import copy
 """
 known issues:
 - subnet mask in dotted notation cannot verify consistent subnet mask
-- network address cannot handle situations which include adding a one to the next octet before
+- network address process wont reconfigure the next subnet if an octet reaches over 255 (not added yet)
 """
 
 class IP_Calculator():
